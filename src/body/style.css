@@ -1,0 +1,31 @@
+.main__Container{
+    padding: 5% 10%;
+}
+
+.product-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
+    gap: 2rem;
+}
+
+.below__Section img{
+    width: 258px;
+    height: 219px;
+    border-radius: 32px;
+
+}
+
+.desc1,.desc2{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.price{
+    text-align: -webkit-right;
+}
+
+.spinner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

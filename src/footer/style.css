@@ -1,0 +1,7 @@
+.footerNav{
+    display: flex;
+    column-gap: 28px;
+}
+.main {
+    margin: 10px 25px;
+}
